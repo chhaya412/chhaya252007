@@ -1,5 +1,6 @@
 .Navbar {
     margin-top: 50px;
+    position: sticky;
 }
 
 .nav {

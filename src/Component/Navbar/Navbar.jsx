@@ -1,7 +1,7 @@
 'use client'
-//import { usePathname } from "next/navigation";
 import Link from "next/link";
-import './Navbar.css'
+import './Navbar.css';
+import ThemeToggle from "../Theme/ThemeToggle";
 
 
 
@@ -10,9 +10,12 @@ function Navbar() {
     <div className="Navbar">
         <Link className="nav" href="/" >Home</Link>
         <Link className="nav" href="/About" >About</Link>
-        <Link className="nav" href="/Flight" >Flight</Link>
+        <Link className="nav" href="/Services" >Services</Link>
+        <Link className="nav" href="/Contact" >Contact</Link>
+       <ThemeToggle/>
     </div>
-  )
+     
+)
 }
 
 export default Navbar
